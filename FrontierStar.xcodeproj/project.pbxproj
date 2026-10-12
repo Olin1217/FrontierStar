@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* AppDelegate.swift */; };
+		100000000000000000000102 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* Models.swift */; };
+		100000000000000000000103 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* Theme.swift */; };
+		100000000000000000000104 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* Onboarding.swift */; };
+		100000000000000000000105 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* MainNavigation.swift */; };
+		100000000000000000000106 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* Courses.swift */; };
+		100000000000000000000107 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* Projects.swift */; };
+		100000000000000000000108 /* Needs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* Needs.swift */; };
+		100000000000000000000109 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* Profile.swift */; };
+		10000000000000000000010B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* APIClient.swift */; };
+		10000000000000000000010C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* SceneDelegate.swift */; };
+		10000000000000000000010A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* Needs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Needs.swift; sourceTree = "<group>"; };
+		100000000000000000000009 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		10000000000000000000000A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10000000000000000000000B /* FrontierStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontierStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10000000000000000000000C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		10000000000000000000000D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10000000000000000000000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000300 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000301 /* FrontierStar */,
+				100000000000000000000302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000301 /* FrontierStar */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* AppDelegate.swift */,
+				10000000000000000000000D /* SceneDelegate.swift */,
+				10000000000000000000000E /* Info.plist */,
+				100000000000000000000002 /* Models.swift */,
+				100000000000000000000003 /* Theme.swift */,
+				100000000000000000000004 /* Onboarding.swift */,
+				100000000000000000000005 /* MainNavigation.swift */,
+				100000000000000000000006 /* Courses.swift */,
+				100000000000000000000007 /* Projects.swift */,
+				100000000000000000000008 /* Needs.swift */,
+				100000000000000000000009 /* Profile.swift */,
+				10000000000000000000000C /* APIClient.swift */,
+				10000000000000000000000A /* Assets.xcassets */,
+			);
+			path = FrontierStar;
+			sourceTree = "<group>";
+		};
+		100000000000000000000302 /* Products */ = {
+			isa = PBXGroup;
+			children = (10000000000000000000000B /* FrontierStar.app */);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000400 /* FrontierStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000700 /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				100000000000000000000500 /* Sources */,
+				100000000000000000000201 /* Frameworks */,
+				100000000000000000000501 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = FrontierStar;
+			productName = FrontierStar;
+			productReference = 10000000000000000000000B /* FrontierStar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {100000000000000000000400 = {CreatedOnToolsVersion = 16.0; }; };
+			};
+			buildConfigurationList = 100000000000000000000701 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (Base, zh_CN, en);
+			mainGroup = 100000000000000000000300;
+			productRefGroup = 100000000000000000000302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (100000000000000000000400 /* FrontierStar */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (10000000000000000000010A /* Assets.xcassets in Resources */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000101 /* AppDelegate.swift in Sources */,
+				100000000000000000000102 /* Models.swift in Sources */,
+				100000000000000000000103 /* Theme.swift in Sources */,
+				100000000000000000000104 /* Onboarding.swift in Sources */,
+				100000000000000000000105 /* MainNavigation.swift in Sources */,
+				100000000000000000000106 /* Courses.swift in Sources */,
+				100000000000000000000107 /* Projects.swift in Sources */,
+				100000000000000000000108 /* Needs.swift in Sources */,
+				100000000000000000000109 /* Profile.swift in Sources */,
+				10000000000000000000010B /* APIClient.swift in Sources */,
+				10000000000000000000010C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000801 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Debug;};
+		100000000000000000000802 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0;}; name = Release;};
+		100000000000000000000803 /* Debug target */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FrontierStar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "前沿星";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontierstar.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		100000000000000000000804 /* Release target */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FrontierStar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "前沿星";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frontierstar.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000700 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000803, 100000000000000000000804); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+		100000000000000000000701 /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000000801, 100000000000000000000802); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000600 /* Project object */;
+}
